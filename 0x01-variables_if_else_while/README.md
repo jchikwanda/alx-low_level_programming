@@ -20,7 +20,7 @@ This program will assign a random number to the variable n each time it is execu
 
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 
-1. You can find the source code here
+1. You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
 2. The variable n will store a different value every time you run this program
 3. You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
 4. The output of the program should be:
