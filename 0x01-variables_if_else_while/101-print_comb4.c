@@ -21,6 +21,12 @@ int main(void)
 				if (s2 >= e2)
 					loop = 0;
 
+				if (tmp2 > e2)
+				{
+					s2 = s1 + 1;
+					tmp2 = s2;
+				}
+
 				putchar(s + '0');
 				putchar(s1 >= e1 ? e1 + '0' : s1 + '0');
 				putchar(s2 >= e2 ? e2 + '0' : s2 + '0');
