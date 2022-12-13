@@ -64,3 +64,17 @@ Second project. The learning goals are as follows:
 13. How to print variables using printf
 14. What is the ASCII character set
 15. What are the purpose of the gcc flags -m32 and -m64
+
+### [0x02. C - Functions, nested loops](./0x01-variables_if_else_while//README.md) 
+
+#### 13<sup>th</sup> December, 2022
+
+Third project. The learning goals are as follows:
+
+1. What are nested loops and how to use them
+2. What is a function and how do you use functions
+3. What is the difference between a declaration and a definition of a function
+4. What is a prototype
+5. Scope of variables
+6. What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
+7. What are header files and how to to use them with `#include`
