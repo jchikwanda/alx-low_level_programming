@@ -88,3 +88,17 @@ Fourth project. The learning goals are as follows:
 1. What is debugging
 2. What are some methods of debugging manually
 3. How to read the error messages
+
+### [0x04. C - More functions, more nested loops](./0x01-variables_if_else_while//README.md) 
+
+#### 15<sup>th</sup> December, 2022
+
+Fourth project. The learning goals are as follows:
+
+1. What are nested loops and how to use them
+2. What is a function and how do you use functions
+3. What is the difference between a declaration and a definition of a function
+4. What is a prototype
+5. Scope of variables
+6. What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
+7. What are header files and how to to use them with `#include`
