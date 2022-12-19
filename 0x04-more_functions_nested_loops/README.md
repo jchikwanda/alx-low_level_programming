@@ -3,7 +3,7 @@
 ## About This Directory
 It contains my solutions to the problem statements below.
 
-### [Question 1 Solution]()
+### [Question 1 Solution](./0-isupper.c)
 
 Write a function that checks for uppercase character.
 
@@ -13,7 +13,7 @@ Write a function that checks for uppercase character.
 
 FYI: The standard library provides a similar function: `isupper`. Run `man isupper` to learn more.
 
-### [Question 2 Solution]()
+### [Question 2 Solution](./1-isdigit.c)
 
 Write a function that checks for a digit (0 through 9).
 
@@ -23,19 +23,19 @@ Write a function that checks for a digit (0 through 9).
 
 FYI: The standard library provides a similar function: `isdigit`. Run `man isdigit` to learn more.
 
-### [Question 3 Solution]()
+### [Question 3 Solution](./2-mul.c)
 Write a function that multiplies two integers.
 
 - Prototype: `int mul(int a, int b);`
 
 
-### [Question 4 Solution]()
+### [Question 4 Solution](./3-print_numbers.c)
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
 - Prototype: `void print_numbers(void);`
 - You can only use `_putchar` twice in your code
 
-### [Question 5 Solution]()
+### [Question 5 Solution](./4-print_most_numbers.c)
 
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
@@ -44,13 +44,13 @@ Write a function that prints the numbers, from 0 to 9, followed by a new line.
 - You can only use `_putchar` twice in your code
 
 
-### [Question 6 Solution]()
+### [Question 6 Solution](./5-more_numbers.c)
 Write a function that prints 10 times the numbers, from `0` to `14`, followed by a new line.
 
 - Prototype: `void more_numbers(void);`
 - You can only use `_putchar` three times in your code
 
-### [Question 7 Solution]()
+### [Question 7 Solution](./6-print_line.c)
 Write a function that draws a straight line in the terminal.
 
 - Prototype: `void print_line(int n);`
@@ -60,7 +60,7 @@ Write a function that draws a straight line in the terminal.
 - If `n` is `0` or less, the function should only print `\n`
 
 
-### [Question 8 Solution]()
+### [Question 8 Solution](./7-print_diagonal.c)
 Write a function that draws a diagonal line on the terminal.
 
 - Prototype: `void print_diagonal(int n);`
@@ -69,7 +69,7 @@ Write a function that draws a diagonal line on the terminal.
 - The diagonal should end with a `\n`
 - If `n` is `0` or less, the function should only print a `\n`
 
-### [Question 9 Solution]()
+### [Question 9 Solution](./8-print_square.c)
 Write a function that prints a square, followed by a new line.
 
 - Prototype: `void print_square(int size);`
@@ -79,7 +79,7 @@ Write a function that prints a square, followed by a new line.
 - Use the character `#` to print the square
 
 
-### [Question 10 Solution]()
+### [Question 10 Solution](./9-fizz_buzz.c)
 The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag.
 
 Write a program that prints the numbers from `1` to `100`, followed by a new line. But for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
