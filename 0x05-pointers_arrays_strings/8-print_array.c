@@ -18,8 +18,7 @@ void print_array(int *a, int n)
 
 		if (count != (n - 1))
 			printf(", ");
-		else
-			putchar('\n');
 		count++;
 	}
+	putchar('\n');
 }
