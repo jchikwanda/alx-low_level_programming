@@ -13,12 +13,12 @@ char *create_array(unsigned int size, char c)
 	unsigned int count = 0;
 
 	if (size == 0)
-		return NULL;
+		return (NULL);
 
-	arr = (char*)(malloc(size * sizeof(char)));
+	arr = (char *)(malloc(size * sizeof(char)));
 
 	if (!arr)
-		return NULL;
+		return (NULL);
 
 	while (count < size)
 	{
@@ -26,5 +26,5 @@ char *create_array(unsigned int size, char c)
 		count++;
 	}
 
-	return arr;
+	return (arr);
 }
