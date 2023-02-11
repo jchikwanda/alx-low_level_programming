@@ -2,12 +2,12 @@
 
 /**
  * init_dog - initialize a variable of type struct dog
- * @d: dog variable
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Owner of the dogs name
+ * @d: dog structure to be initialized
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
  *
- * Return: Nothing
+ * Return: NULL
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
