@@ -29,7 +29,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new_node = (list_t *)malloc(sizeof(list_t));
 	char *s = strdup(str ? str : "(nil)");
 
-	if (!new_node || !str)
+	if (!new_node || !str || !head)
 		return (NULL);
 
 	new_node->str = s;
