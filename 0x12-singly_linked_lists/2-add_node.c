@@ -27,27 +27,13 @@ unsigned int _strlen(char *s)
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node = (list_t *)malloc(sizeof(list_t));
-	char *s = strdup(str ? str : "(nil)");
-
-	if (!*head)
-	{
-		*head = (list_t *)malloc(sizeof(list_t));
-
-		if (!*head)
-			return (NULL);
-
-		(*head)->str = s;
-		(*head)->len = !str ? 0 : _strlen(s);
-		(*head)->next = NULL;
-
-		return (*head);
-	}
+	char *s = strdup(str);
 
 	if (!new_node)
 		return (NULL);
 
 	new_node->str = s;
-	new_node->len = !str ? 0 : _strlen(s);
+	new_node->len = _strlen(s);
 	new_node->next = *head;
 
 	*head = new_node;
