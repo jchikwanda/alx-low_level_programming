@@ -8,13 +8,13 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *head_red = *head;
-        listint_t *temp_node;
+	listint_t *head_ref = *head;
+	listint_t *temp_node;
 
 	if (!head)
 		return;
 
-	while (*head)
+	while (*head_ref)
 	{
 		temp_node = head_ref->next;
 		free(head_ref);
