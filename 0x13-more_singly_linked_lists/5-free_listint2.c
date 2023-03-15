@@ -14,7 +14,7 @@ void free_listint2(listint_t **head)
 	if (!head)
 		return;
 
-	while (*head_ref)
+	while (head_ref)
 	{
 		temp_node = head_ref->next;
 		free(head_ref);
